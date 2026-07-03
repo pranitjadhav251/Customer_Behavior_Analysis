@@ -14,7 +14,7 @@ Tools & Technologies
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Jupyter Notebook
-- SQL (PostgreSQL / MySQL / SQL Server)
+- SQL ( MySQL / SQL Server)
 - Power BI
 - Gamma (Presentation)
 - Microsoft Excel
