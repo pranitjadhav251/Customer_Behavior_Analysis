@@ -1,127 +1,65 @@
-# Customer_Behavior_Analysis
-This project demonstrates the complete Data Analytics workflow. Use Python, SQL, PowerBI  To Build The Meaningful Project.
-🛍️ Customer Shopping Behavior Analysis
-📌 Project Overview
+Customer_Behavior_Analysis
 
-Customer Shopping Behavior Analysis is an end-to-end Data Analytics project that analyzes customer purchasing patterns using Python, PostgreSQL, SQL, and Power BI. The project transforms raw transactional data into meaningful business insights through data cleaning, exploratory data analysis (EDA), SQL-based business analysis, and interactive dashboards.
+Overview
 
-The primary objective is to understand customer behavior, purchasing trends, product performance, and subscription patterns to support data-driven business decisions.
+This project demonstrates a complete data analytics workflow, starting from raw data and ending with an interactive dashboard and business insights. The project includes data loading, exploratory data analysis (EDA), data cleaning, SQL analysis, Power BI dashboard creation, and a final report and presentation.
 
-🚀 Project Objectives
-Clean and preprocess raw customer shopping data.
-Perform Exploratory Data Analysis (EDA) using Python.
-Store processed data in PostgreSQL.
-Write SQL queries to solve real-world business problems.
-Build an interactive Power BI dashboard.
-Generate actionable business recommendations.
-📊 Dataset Information
-Total Records: 3,900+
-Features: 18
-Customer Demographics
-Purchase Details
-Product Categories
-Subscription Status
-Discount Information
-Purchase Frequency
-Shipping Type
-Customer Reviews
-Seasonal Purchases
-🛠️ Tech Stack
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Database
-PostgreSQL
-SQL
-Joins
-Window Functions
-CTEs
-Aggregate Functions
-CASE Statements
-Visualization
-Power BI
-Tools
-Jupyter Notebook
-pgAdmin
-Git & GitHub
-📈 Project Workflow
-Raw Dataset
-      │
-      ▼
-Data Cleaning (Python)
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-PostgreSQL Database
-      │
-      ▼
-Business Analysis using SQL
-      │
-      ▼
-Power BI Dashboard
-      │
-      ▼
-Business Insights & Recommendations
-🔍 Key Analysis Performed
-Customer spending analysis by gender
-Revenue analysis across subscription status
-High-spending customers using discounts
-Top-rated products
-Revenue by age groups
-Shipping method comparison
-Product category performance
-Customer segmentation (New, Returning, Loyal)
-Repeat purchase analysis
-Discount effectiveness
-Purchase frequency analysis
-📊 Dashboard Highlights
+Dataset
 
-The interactive Power BI dashboard provides:
+- Dataset loaded using Python.
+- Data inspected for quality and completeness.
+- Missing values, duplicates, and inconsistent records were identified and handled before analysis.
 
-Revenue Overview
-Customer Demographics
-Product Category Analysis
-Subscription Insights
-Customer Segmentation
-Purchase Trends
-Shipping Performance
-Discount Analysis
-💡 Business Insights
-Identified customer segments based on purchasing behavior.
-Compared subscriber vs. non-subscriber spending.
-Evaluated the impact of discounts on sales.
-Discovered top-performing product categories.
-Analyzed revenue contribution by age groups.
-Generated recommendations to improve customer retention and business growth.
-🎯 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Visualization
-SQL Query Writing
-PostgreSQL Database Management
-Feature Engineering
-Business Intelligence
-Dashboard Development
-Business Analytics
-Data Storytelling
-📂 Repository Structure
-Customer-Shopping-Behavior-Analysis/
-│
-├── Dataset/
-├── Jupyter Notebook/
-├── SQL Queries/
-├── PostgreSQL Scripts/
-├── Power BI Dashboard/
-├── Images/
-├── README.md
-└── requirements.txt
-⭐ Project Outcome
+Tools & Technologies
 
-This project demonstrates the complete Data Analytics workflow—from raw data preprocessing to business intelligence reporting—using industry-standard tools such as Python, PostgreSQL, SQL, and Power BI. It showcases practical skills in data cleaning, analytical thinking, SQL querying, dashboard development, and transforming data into actionable business insights, making it a strong portfolio project for Data Analyst and Business Intelligence roles
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- SQL (PostgreSQL / MySQL / SQL Server)
+- Power BI
+- Gamma (Presentation)
+- Microsoft Excel
+
+Project Steps
+
+1. Load the dataset in Python.
+2. Perform Exploratory Data Analysis (EDA).
+3. Clean and preprocess the data.
+4. Export the cleaned dataset (if required).
+5. Write SQL queries to analyze the data using PostgreSQL, MySQL, or SQL Server.
+6. Build an interactive Power BI dashboard.
+7. Prepare a business report with key findings.
+8. Create a presentation using Gamma.
+
+Dashboard
+
+The Power BI dashboard includes:
+
+- KPI Cards
+- Sales/Performance Trends
+- Category-wise Analysis
+- Regional Analysis
+- Interactive Filters and Slicers
+- Charts for better business insights
+
+Results
+
+The project provides:
+
+- Clean and reliable data for analysis.
+- Business insights based on SQL queries and visualizations.
+- An interactive dashboard for decision-making.
+- A professional report and presentation summarizing key findings and recommendations.
+
+How to Run
+
+1. Clone or download this repository.
+2. Install the required Python libraries.
+3. Open the Jupyter Notebook.
+4. Run the notebook step by step.
+5. Import the cleaned dataset into PostgreSQL, MySQL, or SQL Server to execute the SQL queries.
+6. Open the Power BI file to explore the dashboard.
+7. Review the report and Gamma presentation for the final insights.
+
+Project Outcome
+
+This project showcases practical skills in data cleaning, exploratory data analysis, SQL, data visualization, dashboard development, and business reporting. It demonstrates an end-to-end data analytics workflow suitable for portfolio projects and recruiter evaluation.
